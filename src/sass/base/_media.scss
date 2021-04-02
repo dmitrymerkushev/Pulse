@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+@media (max-width: 576px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        &__contacts {
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+    }
+}
